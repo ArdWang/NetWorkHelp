@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HeaderBar自定义属性 -->
+    <declare-styleable name="NetWorkBar">
+        <attr name="isShow" format="boolean"/>
+        <attr name="netText" format="string"/>
+        <attr name="netTextColor" format="integer"/>
+        <attr name="netTextSize" format="dimension"/>
+        <attr name="netImgView" format="integer"/>
+        <attr name="backgroundColor" format="integer"/>
+    </declare-styleable>
+</resources>

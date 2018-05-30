@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.bw.network.widgets.NetWorkBar
+        android:id="@+id/mNetWorkBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isShow="false"
+        app:netText="网络断开连接"
+        app:netTextColor="@color/colorAccent"
+        app:netImgView="@drawable/scan"
+        app:netTextSize="16sp"
+        app:backgroundColor="@color/colorGreen"
+        />
+
+</android.support.constraint.ConstraintLayout>
